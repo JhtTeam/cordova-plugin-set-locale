@@ -1,4 +1,4 @@
-package cordova.plugin.set.locale.SetLocale;
+package cordova.plugin.set.locale;
 
 import android.annotation.TargetApi;
 import android.content.Context;
