@@ -1,0 +1,25 @@
+{
+  "name": "cordova.plugin.set.locale",
+  "version": "0.1.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova.plugin.set.locale",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhtTeam/cordova-plugin-set-locale.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhtTeam/cordova-plugin-set-locale/issues"
+  },
+  "homepage": "https://github.com/JhtTeam/cordova-plugin-set-locale#readme"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova.plugin.set.locale" version="0.1.0">
+   <name>SetLocale</name>
+   <js-module name="SetLocale" src="www/SetLocale.js">
+      <clobbers target="cordova.plugins.SetLocale" />
+   </js-module>
+   <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="SetLocale">
+            <param name="android-package" value="cordova.plugin.set.locale.SetLocale" />
+         </feature>
+      </config-file>
+      <config-file parent="/*" target="AndroidManifest.xml" />
+      <source-file src="src/android/SetLocale.java" target-dir="src/cordova/plugin/set/locale/SetLocale" />
+   </platform>
+</plugin>
