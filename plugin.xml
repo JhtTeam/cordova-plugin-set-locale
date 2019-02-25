@@ -7,10 +7,10 @@
    <platform name="android">
       <config-file parent="/*" target="res/xml/config.xml">
          <feature name="SetLocale">
-            <param name="android-package" value="cordova.plugin.set.locale" />
+            <param name="android-package" value="cordova.plugin.set.locale.SetLocale" />
          </feature>
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
-      <source-file src="src/android/SetLocale.java" target-dir="src/cordova/plugin/set/locale" />
+      <source-file src="src/android/SetLocale.java" target-dir="src/cordova/plugin/set/locale/SetLocale" />
    </platform>
 </plugin>
